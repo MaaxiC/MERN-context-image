@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASEURL = "http://mern-context-image.herokuapp.com";
+const BASEURL = "https://mern-context-image.herokuapp.com";
 
 export const getPostsRequest = async () =>
   await axios.get(BASEURL + "/posts");
